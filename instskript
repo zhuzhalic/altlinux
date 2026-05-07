@@ -4,8 +4,7 @@ sudo update-kernel -y
 sudo apt-get install eepm kernel-headers-6.12 kernel-headers-modules-6.12 wireshark zenmap putty -y 
 sudo epmi https://download.estersoft.ru/pub/Korinf/x86_64/ALTLinux/p10/eepm-3*.noarch.rpm
 sudo epmp packet-tracer -y
-sudo git clone https://github.com/zhuzhalic/altlinux/
 cd /home/admin/Загрузки
-chmod a+x 
-sudo ./
+chmod a+x VMware-Workstation-Full-17.6.4-24832109.x86_64.bundle
+sudo ./VMware-Workstation-Full-17.6.4-24832109.x86_64.bundle
 sudo reboot
