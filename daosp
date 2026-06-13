@@ -1,0 +1,12 @@
+#!/bin/bash
+vtysh
+conf t
+router ospf 
+network 10.255.255.0/30 area 0
+network 192.168.16.0/28 area 0
+exit 
+int gre1
+ip ospf network point-to-point
+exit
+exit
+wr
