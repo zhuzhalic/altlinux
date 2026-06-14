@@ -1,0 +1,10 @@
+dhcp-server 1
+pool vl200 1
+mask 24
+gateway 192.168.200.1
+dns 192.168.100.2
+domain-name au-team.irpo
+ex
+int vl200
+dhcp-server 1
+ex
