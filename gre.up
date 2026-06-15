@@ -1,5 +1,5 @@
 #!/bin/bash
-ip tunnel add gre1 mode gre remote 172.16.1.2 local 172.16.2.2 ttl 255
+ip tunnel add gre1 mode gre remote 172.16.1.2 local 172.16.2.1 ttl 255
 ip link set gre1 up
 ip addr add 10.255.255.2/30 dev gre1
 sysctl -p
