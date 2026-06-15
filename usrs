@@ -3,3 +3,4 @@ br-rtr apt install sudo / adduser net_admin / sudoers add
 #passwd sshuser
 #sshuser ALL=NOPASSWD: ALL
 #gpasswd -a sshuser wheel
+#banner /etc/openssh/banner
