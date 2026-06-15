@@ -2,6 +2,9 @@
 vtysh
 conf t
 router ospf 
+ospf router-id 10.255.255.2
+passive-interface default 
+no passive-interface tunnel.0 
 network 10.255.255.0/30 area 0
 network 192.168.16.0/28 area 0
 exit 
