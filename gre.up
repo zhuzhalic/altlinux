@@ -4,4 +4,4 @@ ip link set gre1 up
 ip addr add 10.255.255.2/30 dev gre1
 sysctl -p
 systemctl restart frr
-#/etc/crontab @reboot root /root/gre.up
+echo "@reboot root /root/gre.up" >> /etc/crontab
